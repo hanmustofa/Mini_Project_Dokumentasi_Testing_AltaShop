@@ -1,0 +1,13 @@
+{"testCaseName":"Test Cases/Negative_Test_Case/TC01_Register_Negative","testCaseId":"Test Cases/Negative_Test_Case/TC01_Register_Negative"}
+{"testCaseName":"Test Cases/Negative_Test_Case/TC02_Login_Negative","testCaseId":"Test Cases/Negative_Test_Case/TC02_Login_Negative"}
+{"testCaseName":"Test Cases/Negative_Test_Case/TC03_Get_All_Categories_Negative","testCaseId":"Test Cases/Negative_Test_Case/TC03_Get_All_Categories_Negative"}
+{"testCaseName":"Test Cases/Negative_Test_Case/TC04_Create_Categories_Negative","testCaseId":"Test Cases/Negative_Test_Case/TC04_Create_Categories_Negative"}
+{"testCaseName":"Test Cases/Negative_Test_Case/TC05_Get_All_Product_Negative","testCaseId":"Test Cases/Negative_Test_Case/TC05_Get_All_Product_Negative"}
+{"testCaseName":"Test Cases/Negative_Test_Case/TC06_Get_Product_By_ID_Negative","testCaseId":"Test Cases/Negative_Test_Case/TC06_Get_Product_By_ID_Negative"}
+{"testCaseName":"Test Cases/Negative_Test_Case/TC07_Create_By_Product_Negative","testCaseId":"Test Cases/Negative_Test_Case/TC07_Create_By_Product_Negative"}
+{"testCaseName":"Test Cases/Negative_Test_Case/TC08_Get_Product_Rating_Negative","testCaseId":"Test Cases/Negative_Test_Case/TC08_Get_Product_Rating_Negative"}
+{"testCaseName":"Test Cases/Negative_Test_Case/TC09_Give_Rating_Product_Negative","testCaseId":"Test Cases/Negative_Test_Case/TC09_Give_Rating_Product_Negative"}
+{"testCaseName":"Test Cases/Negative_Test_Case/TC10_Get_All_Transaction_Negative","testCaseId":"Test Cases/Negative_Test_Case/TC10_Get_All_Transaction_Negative"}
+{"testCaseName":"Test Cases/Negative_Test_Case/TC11_Create_Transaction_Negative","testCaseId":"Test Cases/Negative_Test_Case/TC11_Create_Transaction_Negative"}
+{"testCaseName":"Test Cases/Negative_Test_Case/TC12_Get_Products_Comments_Negative","testCaseId":"Test Cases/Negative_Test_Case/TC12_Get_Products_Comments_Negative"}
+{"testCaseName":"Test Cases/Negative_Test_Case/TC13_Write_Comment_Product_Negative","testCaseId":"Test Cases/Negative_Test_Case/TC13_Write_Comment_Product_Negative"}

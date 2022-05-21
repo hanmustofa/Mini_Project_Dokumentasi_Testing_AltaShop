@@ -1,0 +1,74 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Positive Test Suite,,,,2022-05-13 10:45:58,2022-05-13 10:46:21,"22,584s",PASSED
+,,,,,,,
+Test Cases/Positive_Test_Case/TC01_Register_Positive,,,,2022-05-13 10:45:59,2022-05-13 10:46:04,"4,782s",PASSED
+"Response = sendRequest(findTestObject(""Objek_API/API_Auth/Object_01_Register_Positive""))",,,,2022-05-13 10:46:01,2022-05-13 10:46:04,"2,893s",PASSED
+"verifyResponseStatusCode(Response, 200)",,,,2022-05-13 10:46:04,2022-05-13 10:46:04,"0,030s",PASSED
+"verifyElementPropertyValue(Response, ""data.Email"", ""hansa31@email.com"")",,,,2022-05-13 10:46:04,2022-05-13 10:46:04,"0,155s",PASSED
+,,,,,,,
+Test Cases/Positive_Test_Case/TC02_Login_Positive,,,,2022-05-13 10:46:04,2022-05-13 10:46:05,"1,065s",PASSED
+"Response = sendRequest(findTestObject(""Objek_API/API_Auth/Object_02_Login_Positive""))",,,,2022-05-13 10:46:05,2022-05-13 10:46:05,"0,232s",PASSED
+"verifyResponseStatusCode(Response, 200)",,,,2022-05-13 10:46:05,2022-05-13 10:46:05,"0,004s",PASSED
+"verifyElementPropertyValue(Response, ""data"", ""eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJGdWxsbmFtZSI6ImhhbnMiLCJFbWFpbCI6ImhhbnNAZW1haWwuY29tIn0.wrtwDpzi0yFjgQtX2nXQgmr8TpzcBmVKudKu5C_wHJw"")",,,,2022-05-13 10:46:05,2022-05-13 10:46:05,"0,041s",PASSED
+,,,,,,,
+Test Cases/Positive_Test_Case/TC03_Get_All_Categories_Positive,,,,2022-05-13 10:46:05,2022-05-13 10:46:06,"1,182s",PASSED
+"Response = sendRequest(findTestObject(""Objek_API/API_Categories/Object_03_Get_All_Categories_Positive""))",,,,2022-05-13 10:46:06,2022-05-13 10:46:06,"0,252s",PASSED
+"verifyResponseStatusCode(Response, 200)",,,,2022-05-13 10:46:06,2022-05-13 10:46:06,"0,006s",PASSED
+"verifyElementPropertyValue(Response, ""data[1].Name"", ""kesehatan"")",,,,2022-05-13 10:46:06,2022-05-13 10:46:06,"0,059s",PASSED
+"verifyElementPropertyValue(Response, ""data[3].Description"", ""sangat bagus"")",,,,2022-05-13 10:46:06,2022-05-13 10:46:06,"0,045s",PASSED
+"verifyElementPropertyValue(Response, ""data[8].Name"", ""kesehatan jantung"")",,,,2022-05-13 10:46:06,2022-05-13 10:46:06,"0,059s",PASSED
+,,,,,,,
+Test Cases/Positive_Test_Case/TC04_Create_Categories_Positive,,,,2022-05-13 10:46:06,2022-05-13 10:46:07,"1,026s",PASSED
+"Response = sendRequest(findTestObject(""Objek_API/API_Categories/Object_04_Create_Categories_Positive""))",,,,2022-05-13 10:46:07,2022-05-13 10:46:07,"0,236s",PASSED
+"verifyResponseStatusCode(Response, 200)",,,,2022-05-13 10:46:07,2022-05-13 10:46:07,"0,004s",PASSED
+"verifyElementPropertyValue(Response, ""data.Name"", ""kesehatan"")",,,,2022-05-13 10:46:07,2022-05-13 10:46:07,"0,059s",PASSED
+,,,,,,,
+Test Cases/Positive_Test_Case/TC05_Get_All_Product_Positive,,,,2022-05-13 10:46:07,2022-05-13 10:46:09,"2,332s",PASSED
+"Response = sendRequest(findTestObject(""Objek_API/API_Product/Object_05_Get_All_Product_Positive""))",,,,2022-05-13 10:46:08,2022-05-13 10:46:09,"0,798s",PASSED
+"verifyResponseStatusCode(Response, 200)",,,,2022-05-13 10:46:09,2022-05-13 10:46:09,"0,009s",PASSED
+"verifyElementPropertyValue(Response, ""data[1].Name"", ""Tensi Darah Elektrik"")",,,,2022-05-13 10:46:09,2022-05-13 10:46:09,"0,171s",PASSED
+"verifyElementPropertyValue(Response, ""data[1].Price"", ""240000"")",,,,2022-05-13 10:46:09,2022-05-13 10:46:09,"0,461s",PASSED
+"verifyElementPropertyValue(Response, ""data[1].Ratings"", ""1"")",,,,2022-05-13 10:46:09,2022-05-13 10:46:09,"0,154s",PASSED
+,,,,,,,
+Test Cases/Positive_Test_Case/TC06_Get_Product_By_ID_Positive,,,,2022-05-13 10:46:09,2022-05-13 10:46:11,"1,995s",PASSED
+"Response = sendRequest(findTestObject(""Objek_API/API_Product/Object_06_Get_Product_By_ID_Positive""))",,,,2022-05-13 10:46:11,2022-05-13 10:46:11,"0,266s",PASSED
+"verifyResponseStatusCode(Response, 200)",,,,2022-05-13 10:46:11,2022-05-13 10:46:11,"0,004s",PASSED
+"verifyElementPropertyValue(Response, ""data.Name"", ""Tensi Darah Elektrik"")",,,,2022-05-13 10:46:11,2022-05-13 10:46:11,"0,072s",PASSED
+,,,,,,,
+Test Cases/Positive_Test_Case/TC07_Create_By_Product_Positive,,,,2022-05-13 10:46:11,2022-05-13 10:46:13,"1,430s",PASSED
+"Response = sendRequest(findTestObject(""Objek_API/API_Product/Object_07_Create_By_Product_Positive""))",,,,2022-05-13 10:46:13,2022-05-13 10:46:13,"0,257s",PASSED
+"verifyResponseStatusCode(Response, 200)",,,,2022-05-13 10:46:13,2022-05-13 10:46:13,"0,004s",PASSED
+"verifyElementPropertyValue(Response, ""data.Name"", ""Tensi Darah Elektrik"")",,,,2022-05-13 10:46:13,2022-05-13 10:46:13,"0,075s",PASSED
+,,,,,,,
+Test Cases/Positive_Test_Case/TC08_Get_Product_Rating_Positive,,,,2022-05-13 10:46:13,2022-05-13 10:46:15,"1,709s",PASSED
+"Response = sendRequest(findTestObject(""Objek_API/API_Ratings/Object_08_Get_Product_Rating_Positive""))",,,,2022-05-13 10:46:14,2022-05-13 10:46:15,"0,474s",PASSED
+"verifyResponseStatusCode(Response, 200)",,,,2022-05-13 10:46:15,2022-05-13 10:46:15,"0,004s",PASSED
+"verifyElementPropertyValue(Response, ""data"", ""3"")",,,,2022-05-13 10:46:15,2022-05-13 10:46:15,"0,042s",PASSED
+,,,,,,,
+Test Cases/Positive_Test_Case/TC09_Give_Rating_Product_Positive,,,,2022-05-13 10:46:15,2022-05-13 10:46:16,"1,229s",PASSED
+"Response = sendRequest(findTestObject(""Objek_API/API_Ratings/Object_09_Give_Rating_Product_Positive""))",,,,2022-05-13 10:46:16,2022-05-13 10:46:16,"0,228s",PASSED
+"verifyResponseStatusCode(Response, 200)",,,,2022-05-13 10:46:16,2022-05-13 10:46:16,"0,004s",PASSED
+"verifyElementPropertyValue(Response, ""data.Categories[0].Name"", ""alat"")",,,,2022-05-13 10:46:16,2022-05-13 10:46:16,"0,064s",PASSED
+,,,,,,,
+Test Cases/Positive_Test_Case/TC10_Get_All_Transaction_Positive,,,,2022-05-13 10:46:16,2022-05-13 10:46:17,"1,292s",PASSED
+"Response = sendRequest(findTestObject(""Objek_API/API_Transactions/Object_10_Get_All_Transaction_Positive""))",,,,2022-05-13 10:46:17,2022-05-13 10:46:17,"0,204s",PASSED
+"verifyResponseStatusCode(Response, 200)",,,,2022-05-13 10:46:17,2022-05-13 10:46:17,"0,008s",PASSED
+"verifyElementPropertyValue(Response, ""data.User.Email"", ""aku@gmail.com"")",,,,2022-05-13 10:46:17,2022-05-13 10:46:17,"0,090s",PASSED
+"verifyElementPropertyValue(Response, ""data.User.Password"", ""aiueo"")",,,,2022-05-13 10:46:17,2022-05-13 10:46:17,"0,075s",PASSED
+"verifyElementPropertyValue(Response, ""data.Quantity"", ""1"")",,,,2022-05-13 10:46:17,2022-05-13 10:46:17,"0,066s",PASSED
+,,,,,,,
+Test Cases/Positive_Test_Case/TC11_Create_Transaction_Positive,,,,2022-05-13 10:46:17,2022-05-13 10:46:18,"1,000s",PASSED
+"Response = sendRequest(findTestObject(""Objek_API/API_Transactions/Object_11_Create_Transaction_Positive""))",,,,2022-05-13 10:46:18,2022-05-13 10:46:18,"0,227s",PASSED
+"verifyResponseStatusCode(Response, 200)",,,,2022-05-13 10:46:18,2022-05-13 10:46:18,"0,003s",PASSED
+"verifyElementPropertyValue(Response, ""data[0].Quantity"", 2)",,,,2022-05-13 10:46:18,2022-05-13 10:46:18,"0,059s",PASSED
+,,,,,,,
+Test Cases/Positive_Test_Case/TC12_Get_Products_Comments_Positive,,,,2022-05-13 10:46:18,2022-05-13 10:46:20,"1,364s",PASSED
+"Response = sendRequest(findTestObject(""Objek_API/API_Comments/Object_12_Get_Products_Comments_Positive""))",,,,2022-05-13 10:46:19,2022-05-13 10:46:19,"0,226s",PASSED
+"verifyResponseStatusCode(Response, 200)",,,,2022-05-13 10:46:19,2022-05-13 10:46:19,"0,004s",PASSED
+"verifyElementPropertyValue(Response, ""data[0].Content"", ""Sangat bagus, produk berfungsi dengan baik"")",,,,2022-05-13 10:46:19,2022-05-13 10:46:19,"0,157s",PASSED
+"verifyElementPropertyValue(Response, ""data[1].Content"", ""mantap nih"")",,,,2022-05-13 10:46:19,2022-05-13 10:46:20,"0,047s",PASSED
+,,,,,,,
+Test Cases/Positive_Test_Case/TC13_Write_Comment_Product_Positive,,,,2022-05-13 10:46:20,2022-05-13 10:46:21,"1,102s",PASSED
+"Response = sendRequest(findTestObject(""Objek_API/API_Comments/Object_13_Write_Comment_Product_Positive""))",,,,2022-05-13 10:46:20,2022-05-13 10:46:21,"0,229s",PASSED
+"verifyResponseStatusCode(Response, 200)",,,,2022-05-13 10:46:21,2022-05-13 10:46:21,"0,006s",PASSED
+"verifyElementPropertyValue(Response, ""data.Content"", ""mantap gan"")",,,,2022-05-13 10:46:21,2022-05-13 10:46:21,"0,085s",PASSED

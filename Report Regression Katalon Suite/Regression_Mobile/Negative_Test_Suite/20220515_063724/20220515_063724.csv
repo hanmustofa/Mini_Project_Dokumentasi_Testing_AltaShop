@@ -1,0 +1,9 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Negative_Test_Suite,,,,2022-05-15 06:38:39,2022-05-15 06:43:24,"4m - 45,483s",PASSED
+,,,,,,,
+Test Cases/Negative_Test_Case/TC01_Register_Negative,,,,2022-05-15 06:38:39,2022-05-15 06:41:12,"2m - 32,917s",PASSED
+"for ([i = 1, i <= 6, (i++)])",,,,2022-05-15 06:38:40,2022-05-15 06:41:11,"2m - 31,499s",PASSED
+closeApplication(),,,,2022-05-15 06:41:11,2022-05-15 06:41:12,"0,734s",PASSED
+,,,,,,,
+Test Cases/Negative_Test_Case/TC02_Login_Negative,,,,2022-05-15 06:41:12,2022-05-15 06:43:24,"2m - 12,083s",PASSED
+"for ([i = 1, i <= 7, (i++)])",,,,2022-05-15 06:41:13,2022-05-15 06:43:24,"2m - 11,703s",PASSED

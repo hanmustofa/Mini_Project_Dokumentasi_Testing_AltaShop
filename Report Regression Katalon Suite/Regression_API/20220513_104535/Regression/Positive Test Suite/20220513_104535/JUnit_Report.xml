@@ -1,0 +1,280 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Positive Test Suite" time="22.584" tests="13" failures="0" errors="0">
+   <testsuite name="Positive Test Suite" tests="13" failures="0" errors="0" time="22.584" skipped="0" timestamp="2022-05-13 10:45:58" hostname="Hans-Mustofa - DESKTOP-MP0UU16" id="Test Suites/Regression/Positive Test Suite">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Hans-Mustofa\\Katalon Studio\\Testing-API-Mini-Project-Hans\\Reports\\20220513_104535\\Regression\\Positive Test Suite\\20220513_104535"/>
+         <property name="logFiles" value="C:\\Users\\Hans-Mustofa\\Katalon Studio\\Testing-API-Mini-Project-Hans\\Reports\\20220513_104535\\Regression\\Positive Test Suite\\20220513_104535\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Hans-Mustofa - DESKTOP-MP0UU16"/>
+         <property name="hostAddress" value="192.168.173.1"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="8.2.5.208"/>
+      </properties>
+      <testcase name="Test Cases/Positive_Test_Case/TC01_Register_Positive" time="4.782" classname="Test Cases/Positive_Test_Case/TC01_Register_Positive" status="PASSED">
+         <system-out><![CDATA[2022-05-13 10:45:59 - [TEST_CASE][PASSED] - Test Cases/Positive_Test_Case/TC01_Register_Positive: Test Cases/Positive_Test_Case/TC01_Register_Positive
+
+2022-05-13 10:46:01 - [TEST_STEP][PASSED] - Response = sendRequest(findTestObject("Objek_API/API_Auth/Object_01_Register_Positive")): Send request successfully
+
+2022-05-13 10:46:03 - [MESSAGE][INFO] - HAR: C:\Users\Hans-Mustofa\Katalon Studio\Testing-API-Mini-Project-Hans\Reports\20220513_104535\Regression\Positive Test Suite\20220513_104535\requests\main\0.har
+
+2022-05-13 10:46:04 - [MESSAGE][PASSED] - Send request successfully
+
+2022-05-13 10:46:04 - [TEST_STEP][PASSED] - verifyResponseStatusCode(Response, 200): Verify response status code successfully
+
+2022-05-13 10:46:04 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2022-05-13 10:46:04 - [TEST_STEP][PASSED] - verifyElementPropertyValue(Response, "data.Email", "hansa31@email.com"): Verify element property value successfully
+
+2022-05-13 10:46:04 - [MESSAGE][PASSED] - Verify element property value successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Positive_Test_Case/TC02_Login_Positive" time="1.065" classname="Test Cases/Positive_Test_Case/TC02_Login_Positive" status="PASSED">
+         <system-out><![CDATA[2022-05-13 10:46:04 - [TEST_CASE][PASSED] - Test Cases/Positive_Test_Case/TC02_Login_Positive: Test Cases/Positive_Test_Case/TC02_Login_Positive
+
+2022-05-13 10:46:05 - [TEST_STEP][PASSED] - Response = sendRequest(findTestObject("Objek_API/API_Auth/Object_02_Login_Positive")): Send request successfully
+
+2022-05-13 10:46:05 - [MESSAGE][INFO] - HAR: C:\Users\Hans-Mustofa\Katalon Studio\Testing-API-Mini-Project-Hans\Reports\20220513_104535\Regression\Positive Test Suite\20220513_104535\requests\main\1.har
+
+2022-05-13 10:46:05 - [MESSAGE][PASSED] - Send request successfully
+
+2022-05-13 10:46:05 - [TEST_STEP][PASSED] - verifyResponseStatusCode(Response, 200): Verify response status code successfully
+
+2022-05-13 10:46:05 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2022-05-13 10:46:05 - [TEST_STEP][PASSED] - verifyElementPropertyValue(Response, "data", "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJGdWxsbmFtZSI6ImhhbnMiLCJFbWFpbCI6ImhhbnNAZW1haWwuY29tIn0.wrtwDpzi0yFjgQtX2nXQgmr8TpzcBmVKudKu5C_wHJw"): Verify element property value successfully
+
+2022-05-13 10:46:05 - [MESSAGE][PASSED] - Verify element property value successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Positive_Test_Case/TC03_Get_All_Categories_Positive" time="1.182" classname="Test Cases/Positive_Test_Case/TC03_Get_All_Categories_Positive" status="PASSED">
+         <system-out><![CDATA[2022-05-13 10:46:05 - [TEST_CASE][PASSED] - Test Cases/Positive_Test_Case/TC03_Get_All_Categories_Positive: Test Cases/Positive_Test_Case/TC03_Get_All_Categories_Positive
+
+2022-05-13 10:46:06 - [TEST_STEP][PASSED] - Response = sendRequest(findTestObject("Objek_API/API_Categories/Object_03_Get_All_Categories_Positive")): Send request successfully
+
+2022-05-13 10:46:06 - [MESSAGE][INFO] - HAR: C:\Users\Hans-Mustofa\Katalon Studio\Testing-API-Mini-Project-Hans\Reports\20220513_104535\Regression\Positive Test Suite\20220513_104535\requests\main\2.har
+
+2022-05-13 10:46:06 - [MESSAGE][PASSED] - Send request successfully
+
+2022-05-13 10:46:06 - [TEST_STEP][PASSED] - verifyResponseStatusCode(Response, 200): Verify response status code successfully
+
+2022-05-13 10:46:06 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2022-05-13 10:46:06 - [TEST_STEP][PASSED] - verifyElementPropertyValue(Response, "data[1].Name", "kesehatan"): Verify element property value successfully
+
+2022-05-13 10:46:06 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2022-05-13 10:46:06 - [TEST_STEP][PASSED] - verifyElementPropertyValue(Response, "data[3].Description", "sangat bagus"): Verify element property value successfully
+
+2022-05-13 10:46:06 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2022-05-13 10:46:06 - [TEST_STEP][PASSED] - verifyElementPropertyValue(Response, "data[8].Name", "kesehatan jantung"): Verify element property value successfully
+
+2022-05-13 10:46:06 - [MESSAGE][PASSED] - Verify element property value successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Positive_Test_Case/TC04_Create_Categories_Positive" time="1.026" classname="Test Cases/Positive_Test_Case/TC04_Create_Categories_Positive" status="PASSED">
+         <system-out><![CDATA[2022-05-13 10:46:06 - [TEST_CASE][PASSED] - Test Cases/Positive_Test_Case/TC04_Create_Categories_Positive: Test Cases/Positive_Test_Case/TC04_Create_Categories_Positive
+
+2022-05-13 10:46:07 - [TEST_STEP][PASSED] - Response = sendRequest(findTestObject("Objek_API/API_Categories/Object_04_Create_Categories_Positive")): Send request successfully
+
+2022-05-13 10:46:07 - [MESSAGE][INFO] - HAR: C:\Users\Hans-Mustofa\Katalon Studio\Testing-API-Mini-Project-Hans\Reports\20220513_104535\Regression\Positive Test Suite\20220513_104535\requests\main\3.har
+
+2022-05-13 10:46:07 - [MESSAGE][PASSED] - Send request successfully
+
+2022-05-13 10:46:07 - [TEST_STEP][PASSED] - verifyResponseStatusCode(Response, 200): Verify response status code successfully
+
+2022-05-13 10:46:07 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2022-05-13 10:46:07 - [TEST_STEP][PASSED] - verifyElementPropertyValue(Response, "data.Name", "kesehatan"): Verify element property value successfully
+
+2022-05-13 10:46:07 - [MESSAGE][PASSED] - Verify element property value successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Positive_Test_Case/TC05_Get_All_Product_Positive" time="2.332" classname="Test Cases/Positive_Test_Case/TC05_Get_All_Product_Positive" status="PASSED">
+         <system-out><![CDATA[2022-05-13 10:46:07 - [TEST_CASE][PASSED] - Test Cases/Positive_Test_Case/TC05_Get_All_Product_Positive: Test Cases/Positive_Test_Case/TC05_Get_All_Product_Positive
+
+2022-05-13 10:46:08 - [TEST_STEP][PASSED] - Response = sendRequest(findTestObject("Objek_API/API_Product/Object_05_Get_All_Product_Positive")): Send request successfully
+
+2022-05-13 10:46:09 - [MESSAGE][INFO] - HAR: C:\Users\Hans-Mustofa\Katalon Studio\Testing-API-Mini-Project-Hans\Reports\20220513_104535\Regression\Positive Test Suite\20220513_104535\requests\main\4.har
+
+2022-05-13 10:46:09 - [MESSAGE][PASSED] - Send request successfully
+
+2022-05-13 10:46:09 - [TEST_STEP][PASSED] - verifyResponseStatusCode(Response, 200): Verify response status code successfully
+
+2022-05-13 10:46:09 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2022-05-13 10:46:09 - [TEST_STEP][PASSED] - verifyElementPropertyValue(Response, "data[1].Name", "Tensi Darah Elektrik"): Verify element property value successfully
+
+2022-05-13 10:46:09 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2022-05-13 10:46:09 - [TEST_STEP][PASSED] - verifyElementPropertyValue(Response, "data[1].Price", "240000"): Verify element property value successfully
+
+2022-05-13 10:46:09 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2022-05-13 10:46:09 - [TEST_STEP][PASSED] - verifyElementPropertyValue(Response, "data[1].Ratings", "1"): Verify element property value successfully
+
+2022-05-13 10:46:09 - [MESSAGE][PASSED] - Verify element property value successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Positive_Test_Case/TC06_Get_Product_By_ID_Positive" time="1.995" classname="Test Cases/Positive_Test_Case/TC06_Get_Product_By_ID_Positive" status="PASSED">
+         <system-out><![CDATA[2022-05-13 10:46:09 - [TEST_CASE][PASSED] - Test Cases/Positive_Test_Case/TC06_Get_Product_By_ID_Positive: Test Cases/Positive_Test_Case/TC06_Get_Product_By_ID_Positive
+
+2022-05-13 10:46:11 - [TEST_STEP][PASSED] - Response = sendRequest(findTestObject("Objek_API/API_Product/Object_06_Get_Product_By_ID_Positive")): Send request successfully
+
+2022-05-13 10:46:11 - [MESSAGE][INFO] - HAR: C:\Users\Hans-Mustofa\Katalon Studio\Testing-API-Mini-Project-Hans\Reports\20220513_104535\Regression\Positive Test Suite\20220513_104535\requests\main\5.har
+
+2022-05-13 10:46:11 - [MESSAGE][PASSED] - Send request successfully
+
+2022-05-13 10:46:11 - [TEST_STEP][PASSED] - verifyResponseStatusCode(Response, 200): Verify response status code successfully
+
+2022-05-13 10:46:11 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2022-05-13 10:46:11 - [TEST_STEP][PASSED] - verifyElementPropertyValue(Response, "data.Name", "Tensi Darah Elektrik"): Verify element property value successfully
+
+2022-05-13 10:46:11 - [MESSAGE][PASSED] - Verify element property value successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Positive_Test_Case/TC07_Create_By_Product_Positive" time="1.43" classname="Test Cases/Positive_Test_Case/TC07_Create_By_Product_Positive" status="PASSED">
+         <system-out><![CDATA[2022-05-13 10:46:11 - [TEST_CASE][PASSED] - Test Cases/Positive_Test_Case/TC07_Create_By_Product_Positive: Test Cases/Positive_Test_Case/TC07_Create_By_Product_Positive
+
+2022-05-13 10:46:13 - [TEST_STEP][PASSED] - Response = sendRequest(findTestObject("Objek_API/API_Product/Object_07_Create_By_Product_Positive")): Send request successfully
+
+2022-05-13 10:46:13 - [MESSAGE][INFO] - HAR: C:\Users\Hans-Mustofa\Katalon Studio\Testing-API-Mini-Project-Hans\Reports\20220513_104535\Regression\Positive Test Suite\20220513_104535\requests\main\6.har
+
+2022-05-13 10:46:13 - [MESSAGE][PASSED] - Send request successfully
+
+2022-05-13 10:46:13 - [TEST_STEP][PASSED] - verifyResponseStatusCode(Response, 200): Verify response status code successfully
+
+2022-05-13 10:46:13 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2022-05-13 10:46:13 - [TEST_STEP][PASSED] - verifyElementPropertyValue(Response, "data.Name", "Tensi Darah Elektrik"): Verify element property value successfully
+
+2022-05-13 10:46:13 - [MESSAGE][PASSED] - Verify element property value successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Positive_Test_Case/TC08_Get_Product_Rating_Positive" time="1.709" classname="Test Cases/Positive_Test_Case/TC08_Get_Product_Rating_Positive" status="PASSED">
+         <system-out><![CDATA[2022-05-13 10:46:13 - [TEST_CASE][PASSED] - Test Cases/Positive_Test_Case/TC08_Get_Product_Rating_Positive: Test Cases/Positive_Test_Case/TC08_Get_Product_Rating_Positive
+
+2022-05-13 10:46:14 - [TEST_STEP][PASSED] - Response = sendRequest(findTestObject("Objek_API/API_Ratings/Object_08_Get_Product_Rating_Positive")): Send request successfully
+
+2022-05-13 10:46:15 - [MESSAGE][INFO] - HAR: C:\Users\Hans-Mustofa\Katalon Studio\Testing-API-Mini-Project-Hans\Reports\20220513_104535\Regression\Positive Test Suite\20220513_104535\requests\main\7.har
+
+2022-05-13 10:46:15 - [MESSAGE][PASSED] - Send request successfully
+
+2022-05-13 10:46:15 - [TEST_STEP][PASSED] - verifyResponseStatusCode(Response, 200): Verify response status code successfully
+
+2022-05-13 10:46:15 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2022-05-13 10:46:15 - [TEST_STEP][PASSED] - verifyElementPropertyValue(Response, "data", "3"): Verify element property value successfully
+
+2022-05-13 10:46:15 - [MESSAGE][PASSED] - Verify element property value successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Positive_Test_Case/TC09_Give_Rating_Product_Positive" time="1.229" classname="Test Cases/Positive_Test_Case/TC09_Give_Rating_Product_Positive" status="PASSED">
+         <system-out><![CDATA[2022-05-13 10:46:15 - [TEST_CASE][PASSED] - Test Cases/Positive_Test_Case/TC09_Give_Rating_Product_Positive: Test Cases/Positive_Test_Case/TC09_Give_Rating_Product_Positive
+
+2022-05-13 10:46:16 - [TEST_STEP][PASSED] - Response = sendRequest(findTestObject("Objek_API/API_Ratings/Object_09_Give_Rating_Product_Positive")): Send request successfully
+
+2022-05-13 10:46:16 - [MESSAGE][INFO] - HAR: C:\Users\Hans-Mustofa\Katalon Studio\Testing-API-Mini-Project-Hans\Reports\20220513_104535\Regression\Positive Test Suite\20220513_104535\requests\main\8.har
+
+2022-05-13 10:46:16 - [MESSAGE][PASSED] - Send request successfully
+
+2022-05-13 10:46:16 - [TEST_STEP][PASSED] - verifyResponseStatusCode(Response, 200): Verify response status code successfully
+
+2022-05-13 10:46:16 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2022-05-13 10:46:16 - [TEST_STEP][PASSED] - verifyElementPropertyValue(Response, "data.Categories[0].Name", "alat"): Verify element property value successfully
+
+2022-05-13 10:46:16 - [MESSAGE][PASSED] - Verify element property value successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Positive_Test_Case/TC10_Get_All_Transaction_Positive" time="1.292" classname="Test Cases/Positive_Test_Case/TC10_Get_All_Transaction_Positive" status="PASSED">
+         <system-out><![CDATA[2022-05-13 10:46:16 - [TEST_CASE][PASSED] - Test Cases/Positive_Test_Case/TC10_Get_All_Transaction_Positive: Test Cases/Positive_Test_Case/TC10_Get_All_Transaction_Positive
+
+2022-05-13 10:46:17 - [TEST_STEP][PASSED] - Response = sendRequest(findTestObject("Objek_API/API_Transactions/Object_10_Get_All_Transaction_Positive")): Send request successfully
+
+2022-05-13 10:46:17 - [MESSAGE][INFO] - HAR: C:\Users\Hans-Mustofa\Katalon Studio\Testing-API-Mini-Project-Hans\Reports\20220513_104535\Regression\Positive Test Suite\20220513_104535\requests\main\9.har
+
+2022-05-13 10:46:17 - [MESSAGE][PASSED] - Send request successfully
+
+2022-05-13 10:46:17 - [TEST_STEP][PASSED] - verifyResponseStatusCode(Response, 200): Verify response status code successfully
+
+2022-05-13 10:46:17 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2022-05-13 10:46:17 - [TEST_STEP][PASSED] - verifyElementPropertyValue(Response, "data.User.Email", "aku@gmail.com"): Verify element property value successfully
+
+2022-05-13 10:46:17 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2022-05-13 10:46:17 - [TEST_STEP][PASSED] - verifyElementPropertyValue(Response, "data.User.Password", "aiueo"): Verify element property value successfully
+
+2022-05-13 10:46:17 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2022-05-13 10:46:17 - [TEST_STEP][PASSED] - verifyElementPropertyValue(Response, "data.Quantity", "1"): Verify element property value successfully
+
+2022-05-13 10:46:17 - [MESSAGE][PASSED] - Verify element property value successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Positive_Test_Case/TC11_Create_Transaction_Positive" time="1.0" classname="Test Cases/Positive_Test_Case/TC11_Create_Transaction_Positive" status="PASSED">
+         <system-out><![CDATA[2022-05-13 10:46:17 - [TEST_CASE][PASSED] - Test Cases/Positive_Test_Case/TC11_Create_Transaction_Positive: Test Cases/Positive_Test_Case/TC11_Create_Transaction_Positive
+
+2022-05-13 10:46:18 - [TEST_STEP][PASSED] - Response = sendRequest(findTestObject("Objek_API/API_Transactions/Object_11_Create_Transaction_Positive")): Send request successfully
+
+2022-05-13 10:46:18 - [MESSAGE][INFO] - HAR: C:\Users\Hans-Mustofa\Katalon Studio\Testing-API-Mini-Project-Hans\Reports\20220513_104535\Regression\Positive Test Suite\20220513_104535\requests\main\10.har
+
+2022-05-13 10:46:18 - [MESSAGE][PASSED] - Send request successfully
+
+2022-05-13 10:46:18 - [TEST_STEP][PASSED] - verifyResponseStatusCode(Response, 200): Verify response status code successfully
+
+2022-05-13 10:46:18 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2022-05-13 10:46:18 - [TEST_STEP][PASSED] - verifyElementPropertyValue(Response, "data[0].Quantity", 2): Verify element property value successfully
+
+2022-05-13 10:46:18 - [MESSAGE][PASSED] - Verify element property value successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Positive_Test_Case/TC12_Get_Products_Comments_Positive" time="1.364" classname="Test Cases/Positive_Test_Case/TC12_Get_Products_Comments_Positive" status="PASSED">
+         <system-out><![CDATA[2022-05-13 10:46:18 - [TEST_CASE][PASSED] - Test Cases/Positive_Test_Case/TC12_Get_Products_Comments_Positive: Test Cases/Positive_Test_Case/TC12_Get_Products_Comments_Positive
+
+2022-05-13 10:46:19 - [TEST_STEP][PASSED] - Response = sendRequest(findTestObject("Objek_API/API_Comments/Object_12_Get_Products_Comments_Positive")): Send request successfully
+
+2022-05-13 10:46:19 - [MESSAGE][INFO] - HAR: C:\Users\Hans-Mustofa\Katalon Studio\Testing-API-Mini-Project-Hans\Reports\20220513_104535\Regression\Positive Test Suite\20220513_104535\requests\main\11.har
+
+2022-05-13 10:46:19 - [MESSAGE][PASSED] - Send request successfully
+
+2022-05-13 10:46:19 - [TEST_STEP][PASSED] - verifyResponseStatusCode(Response, 200): Verify response status code successfully
+
+2022-05-13 10:46:19 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2022-05-13 10:46:19 - [TEST_STEP][PASSED] - verifyElementPropertyValue(Response, "data[0].Content", "Sangat bagus, produk berfungsi dengan baik"): Verify element property value successfully
+
+2022-05-13 10:46:19 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2022-05-13 10:46:19 - [TEST_STEP][PASSED] - verifyElementPropertyValue(Response, "data[1].Content", "mantap nih"): Verify element property value successfully
+
+2022-05-13 10:46:20 - [MESSAGE][PASSED] - Verify element property value successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Positive_Test_Case/TC13_Write_Comment_Product_Positive" time="1.102" classname="Test Cases/Positive_Test_Case/TC13_Write_Comment_Product_Positive" status="PASSED">
+         <system-out><![CDATA[2022-05-13 10:46:20 - [TEST_CASE][PASSED] - Test Cases/Positive_Test_Case/TC13_Write_Comment_Product_Positive: Test Cases/Positive_Test_Case/TC13_Write_Comment_Product_Positive
+
+2022-05-13 10:46:20 - [TEST_STEP][PASSED] - Response = sendRequest(findTestObject("Objek_API/API_Comments/Object_13_Write_Comment_Product_Positive")): Send request successfully
+
+2022-05-13 10:46:21 - [MESSAGE][INFO] - HAR: C:\Users\Hans-Mustofa\Katalon Studio\Testing-API-Mini-Project-Hans\Reports\20220513_104535\Regression\Positive Test Suite\20220513_104535\requests\main\12.har
+
+2022-05-13 10:46:21 - [MESSAGE][PASSED] - Send request successfully
+
+2022-05-13 10:46:21 - [TEST_STEP][PASSED] - verifyResponseStatusCode(Response, 200): Verify response status code successfully
+
+2022-05-13 10:46:21 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2022-05-13 10:46:21 - [TEST_STEP][PASSED] - verifyElementPropertyValue(Response, "data.Content", "mantap gan"): Verify element property value successfully
+
+2022-05-13 10:46:21 - [MESSAGE][PASSED] - Verify element property value successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2022-05-13 10:45:58 - [TEST_SUITE][PASSED] - Positive Test Suite: Test Cases/Positive_Test_Case/TC13_Write_Comment_Product_Positive]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

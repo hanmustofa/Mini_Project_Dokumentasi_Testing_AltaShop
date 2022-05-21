@@ -1,0 +1,33 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Positive_Test_Suite,,,,2022-05-15 06:45:37,2022-05-15 06:46:55,"1m - 17,921s",PASSED
+,,,,,,,
+Test Cases/Positive_Test_Case/TC01_Register_Positif,,,,2022-05-15 06:45:37,2022-05-15 06:46:09,"31,829s",PASSED
+"startApplication(""C:\Users\Hans-Mustofa\Documents\alta-online-shop.apk"", false)",,,,2022-05-15 06:45:38,2022-05-15 06:45:58,"19,801s",PASSED
+"tap(findTestObject(""Object_Register/goto_Login_btn""), 0)",,,,2022-05-15 06:45:58,2022-05-15 06:45:59,"1,163s",PASSED
+"tap(findTestObject(""Object_Register/register_btn""), 0)",,,,2022-05-15 06:45:59,2022-05-15 06:46:01,"2,173s",PASSED
+"tap(findTestObject(""Object_Register/tap_username""), 0)",,,,2022-05-15 06:46:01,2022-05-15 06:46:01,"0,517s",PASSED
+"setText(findTestObject(""Object_Register/set_text_username""), ""hans123"", 0)",,,,2022-05-15 06:46:01,2022-05-15 06:46:03,"1,815s",PASSED
+"tap(findTestObject(""Object_Register/tap_email""), 0)",,,,2022-05-15 06:46:03,2022-05-15 06:46:04,"0,813s",PASSED
+"setText(findTestObject(""Object_Register/set_text_email""), ""hansa3@email.com"", 0)",,,,2022-05-15 06:46:04,2022-05-15 06:46:05,"1,359s",PASSED
+"tap(findTestObject(""Object_Register/tap_password""), 0)",,,,2022-05-15 06:46:05,2022-05-15 06:46:06,"0,841s",PASSED
+"setText(findTestObject(""Object_Register/set_text_password""), ""123123bandung"", 0)",,,,2022-05-15 06:46:06,2022-05-15 06:46:07,"0,806s",PASSED
+"tap(findTestObject(""Object_Register/submit_register_btn""), 0)",,,,2022-05-15 06:46:07,2022-05-15 06:46:09,"1,944s",PASSED
+,,,,,,,
+Test Cases/Positive_Test_Case/TC02_Login_Positif,,,,2022-05-15 06:46:42,2022-05-15 06:46:47,"5,597s",PASSED
+"tap(findTestObject(""Object_Register/goto_Login_btn""), 0)",,,,2022-05-15 06:46:42,2022-05-15 06:46:43,"1,219s",PASSED
+"tap(findTestObject(""Object_Login/tap_email""), 0)",,,,2022-05-15 06:46:43,2022-05-15 06:46:43,"0,443s",PASSED
+"setText(findTestObject(""Object_Login/set_text_email""), ""hans@email.com"", 0)",,,,2022-05-15 06:46:43,2022-05-15 06:46:44,"1,098s",PASSED
+"tap(findTestObject(""Object_Login/tap_password""), 0)",,,,2022-05-15 06:46:44,2022-05-15 06:46:45,"0,769s",PASSED
+"setText(findTestObject(""Object_Login/set_text_password""), ""123123bandung"", 0)",,,,2022-05-15 06:46:45,2022-05-15 06:46:46,"0,769s",PASSED
+"tap(findTestObject(""Object_Login/submit_login_btn""), 0)",,,,2022-05-15 06:46:46,2022-05-15 06:46:47,"1,261s",PASSED
+,,,,,,,
+Test Cases/Positive_Test_Case/TC03_Add_to_Cart_Positif,,,,2022-05-15 06:46:47,2022-05-15 06:46:53,"6,082s",PASSED
+"tap(findTestObject(""Object_Cart/btn_buy_tensi_darah_1""), 0)",,,,2022-05-15 06:46:48,2022-05-15 06:46:48,"0,750s",PASSED
+"tap(findTestObject(""Object_Cart/btn_buy_tensi_darah_2""), 0)",,,,2022-05-15 06:46:48,2022-05-15 06:46:50,"1,258s",PASSED
+"tap(findTestObject(""Object_Cart/btn_buy_durian_jatuh""), 0)",,,,2022-05-15 06:46:50,2022-05-15 06:46:50,"0,482s",PASSED
+"tap(findTestObject(""Object_Cart/btn_buy_tensi_darah_3""), 0)",,,,2022-05-15 06:46:50,2022-05-15 06:46:51,"1,347s",PASSED
+"tap(findTestObject(""Object_Cart/btn_buy_tensi_darah_4""), 0)",,,,2022-05-15 06:46:51,2022-05-15 06:46:52,"0,975s",PASSED
+"tap(findTestObject(""Object_Cart/btn_buy_durian_jatuh_2""), 0)",,,,2022-05-15 06:46:52,2022-05-15 06:46:53,"0,876s",PASSED
+,,,,,,,
+Test Cases/TC04_Logout,,,,2022-05-15 06:46:53,2022-05-15 06:46:55,"1,332s",PASSED
+"tap(findTestObject(""Object_Register/goto_Login_btn""), 0)",,,,2022-05-15 06:46:54,2022-05-15 06:46:55,"0,952s",PASSED

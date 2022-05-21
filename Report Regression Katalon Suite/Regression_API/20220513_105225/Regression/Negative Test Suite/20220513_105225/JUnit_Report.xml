@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Negative Test Suite" time="17.883" tests="13" failures="0" errors="0">
+   <testsuite name="Negative Test Suite" tests="13" failures="0" errors="0" time="17.883" skipped="0" timestamp="2022-05-13 10:52:46" hostname="Hans-Mustofa - DESKTOP-MP0UU16" id="Test Suites/Regression/Negative Test Suite">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Hans-Mustofa\\Katalon Studio\\Testing-API-Mini-Project-Hans\\Reports\\20220513_105225\\Regression\\Negative Test Suite\\20220513_105225"/>
+         <property name="logFiles" value="C:\\Users\\Hans-Mustofa\\Katalon Studio\\Testing-API-Mini-Project-Hans\\Reports\\20220513_105225\\Regression\\Negative Test Suite\\20220513_105225\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Hans-Mustofa - DESKTOP-MP0UU16"/>
+         <property name="hostAddress" value="192.168.173.1"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="8.2.5.208"/>
+      </properties>
+      <testcase name="Test Cases/Negative_Test_Case/TC01_Register_Negative" time="4.963" classname="Test Cases/Negative_Test_Case/TC01_Register_Negative" status="PASSED">
+         <system-out><![CDATA[2022-05-13 10:52:47 - [TEST_CASE][PASSED] - Test Cases/Negative_Test_Case/TC01_Register_Negative: Test Cases/Negative_Test_Case/TC01_Register_Negative
+
+2022-05-13 10:52:49 - [TEST_STEP][PASSED] - Response = sendRequest(findTestObject("Objek_API/API_Auth/Object_01_Register_Negative")): Send request successfully
+
+2022-05-13 10:52:52 - [MESSAGE][INFO] - HAR: C:\Users\Hans-Mustofa\Katalon Studio\Testing-API-Mini-Project-Hans\Reports\20220513_105225\Regression\Negative Test Suite\20220513_105225\requests\main\0.har
+
+2022-05-13 10:52:52 - [MESSAGE][PASSED] - Send request successfully
+
+2022-05-13 10:52:52 - [TEST_STEP][PASSED] - verifyResponseStatusCode(Response, 400): Verify response status code successfully
+
+2022-05-13 10:52:52 - [MESSAGE][PASSED] - Verify response status code successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Negative_Test_Case/TC02_Login_Negative" time="1.336" classname="Test Cases/Negative_Test_Case/TC02_Login_Negative" status="PASSED">
+         <system-out><![CDATA[2022-05-13 10:52:52 - [TEST_CASE][PASSED] - Test Cases/Negative_Test_Case/TC02_Login_Negative: Test Cases/Negative_Test_Case/TC02_Login_Negative
+
+2022-05-13 10:52:53 - [TEST_STEP][PASSED] - Response = sendRequest(findTestObject("Objek_API/API_Auth/Object_02_Login_Negative")): Send request successfully
+
+2022-05-13 10:52:54 - [MESSAGE][INFO] - HAR: C:\Users\Hans-Mustofa\Katalon Studio\Testing-API-Mini-Project-Hans\Reports\20220513_105225\Regression\Negative Test Suite\20220513_105225\requests\main\1.har
+
+2022-05-13 10:52:54 - [MESSAGE][PASSED] - Send request successfully
+
+2022-05-13 10:52:54 - [TEST_STEP][PASSED] - verifyResponseStatusCode(Response, 400): Verify response status code successfully
+
+2022-05-13 10:52:54 - [MESSAGE][PASSED] - Verify response status code successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Negative_Test_Case/TC03_Get_All_Categories_Negative" time="0.816" classname="Test Cases/Negative_Test_Case/TC03_Get_All_Categories_Negative" status="PASSED">
+         <system-out><![CDATA[2022-05-13 10:52:54 - [TEST_CASE][PASSED] - Test Cases/Negative_Test_Case/TC03_Get_All_Categories_Negative: Test Cases/Negative_Test_Case/TC03_Get_All_Categories_Negative
+
+2022-05-13 10:52:54 - [TEST_STEP][PASSED] - Response = sendRequest(findTestObject("Objek_API/API_Categories/Object_03_Get_All_Categories_Negative")): Send request successfully
+
+2022-05-13 10:52:54 - [MESSAGE][INFO] - HAR: C:\Users\Hans-Mustofa\Katalon Studio\Testing-API-Mini-Project-Hans\Reports\20220513_105225\Regression\Negative Test Suite\20220513_105225\requests\main\2.har
+
+2022-05-13 10:52:54 - [MESSAGE][PASSED] - Send request successfully
+
+2022-05-13 10:52:54 - [TEST_STEP][PASSED] - verifyResponseStatusCode(Response, 404): Verify response status code successfully
+
+2022-05-13 10:52:54 - [MESSAGE][PASSED] - Verify response status code successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Negative_Test_Case/TC04_Create_Categories_Negative" time="0.896" classname="Test Cases/Negative_Test_Case/TC04_Create_Categories_Negative" status="PASSED">
+         <system-out><![CDATA[2022-05-13 10:52:55 - [TEST_CASE][PASSED] - Test Cases/Negative_Test_Case/TC04_Create_Categories_Negative: Test Cases/Negative_Test_Case/TC04_Create_Categories_Negative
+
+2022-05-13 10:52:55 - [TEST_STEP][PASSED] - Response = sendRequest(findTestObject("Objek_API/API_Categories/Object_04_Create_Categories_Negative")): Send request successfully
+
+2022-05-13 10:52:55 - [MESSAGE][INFO] - HAR: C:\Users\Hans-Mustofa\Katalon Studio\Testing-API-Mini-Project-Hans\Reports\20220513_105225\Regression\Negative Test Suite\20220513_105225\requests\main\3.har
+
+2022-05-13 10:52:55 - [MESSAGE][PASSED] - Send request successfully
+
+2022-05-13 10:52:55 - [TEST_STEP][PASSED] - verifyResponseStatusCode(Response, 400): Verify response status code successfully
+
+2022-05-13 10:52:55 - [MESSAGE][PASSED] - Verify response status code successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Negative_Test_Case/TC05_Get_All_Product_Negative" time="0.868" classname="Test Cases/Negative_Test_Case/TC05_Get_All_Product_Negative" status="PASSED">
+         <system-out><![CDATA[2022-05-13 10:52:55 - [TEST_CASE][PASSED] - Test Cases/Negative_Test_Case/TC05_Get_All_Product_Negative: Test Cases/Negative_Test_Case/TC05_Get_All_Product_Negative
+
+2022-05-13 10:52:56 - [TEST_STEP][PASSED] - Response = sendRequest(findTestObject("Objek_API/API_Product/Object_05_Get_All_Product_Negative")): Send request successfully
+
+2022-05-13 10:52:56 - [MESSAGE][INFO] - HAR: C:\Users\Hans-Mustofa\Katalon Studio\Testing-API-Mini-Project-Hans\Reports\20220513_105225\Regression\Negative Test Suite\20220513_105225\requests\main\4.har
+
+2022-05-13 10:52:56 - [MESSAGE][PASSED] - Send request successfully
+
+2022-05-13 10:52:56 - [TEST_STEP][PASSED] - verifyResponseStatusCode(Response, 404): Verify response status code successfully
+
+2022-05-13 10:52:56 - [MESSAGE][PASSED] - Verify response status code successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Negative_Test_Case/TC06_Get_Product_By_ID_Negative" time="0.747" classname="Test Cases/Negative_Test_Case/TC06_Get_Product_By_ID_Negative" status="PASSED">
+         <system-out><![CDATA[2022-05-13 10:52:56 - [TEST_CASE][PASSED] - Test Cases/Negative_Test_Case/TC06_Get_Product_By_ID_Negative: Test Cases/Negative_Test_Case/TC06_Get_Product_By_ID_Negative
+
+2022-05-13 10:52:57 - [TEST_STEP][PASSED] - Response = sendRequest(findTestObject("Objek_API/API_Product/Object_06_Get_Product_By_ID_Negative")): Send request successfully
+
+2022-05-13 10:52:57 - [MESSAGE][INFO] - HAR: C:\Users\Hans-Mustofa\Katalon Studio\Testing-API-Mini-Project-Hans\Reports\20220513_105225\Regression\Negative Test Suite\20220513_105225\requests\main\5.har
+
+2022-05-13 10:52:57 - [MESSAGE][PASSED] - Send request successfully
+
+2022-05-13 10:52:57 - [TEST_STEP][PASSED] - verifyResponseStatusCode(Response, 404): Verify response status code successfully
+
+2022-05-13 10:52:57 - [MESSAGE][PASSED] - Verify response status code successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Negative_Test_Case/TC07_Create_By_Product_Negative" time="1.094" classname="Test Cases/Negative_Test_Case/TC07_Create_By_Product_Negative" status="PASSED">
+         <system-out><![CDATA[2022-05-13 10:52:57 - [TEST_CASE][PASSED] - Test Cases/Negative_Test_Case/TC07_Create_By_Product_Negative: Test Cases/Negative_Test_Case/TC07_Create_By_Product_Negative
+
+2022-05-13 10:52:58 - [TEST_STEP][PASSED] - Response = sendRequest(findTestObject("Objek_API/API_Product/Object_07_Create_By_Product_Negative")): Send request successfully
+
+2022-05-13 10:52:58 - [MESSAGE][INFO] - HAR: C:\Users\Hans-Mustofa\Katalon Studio\Testing-API-Mini-Project-Hans\Reports\20220513_105225\Regression\Negative Test Suite\20220513_105225\requests\main\6.har
+
+2022-05-13 10:52:58 - [MESSAGE][PASSED] - Send request successfully
+
+2022-05-13 10:52:58 - [TEST_STEP][PASSED] - verifyResponseStatusCode(Response, 400): Verify response status code successfully
+
+2022-05-13 10:52:58 - [MESSAGE][PASSED] - Verify response status code successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Negative_Test_Case/TC08_Get_Product_Rating_Negative" time="1.019" classname="Test Cases/Negative_Test_Case/TC08_Get_Product_Rating_Negative" status="PASSED">
+         <system-out><![CDATA[2022-05-13 10:52:58 - [TEST_CASE][PASSED] - Test Cases/Negative_Test_Case/TC08_Get_Product_Rating_Negative: Test Cases/Negative_Test_Case/TC08_Get_Product_Rating_Negative
+
+2022-05-13 10:52:59 - [TEST_STEP][PASSED] - Response = sendRequest(findTestObject("Objek_API/API_Ratings/Object_08_Get_Product_Rating_Negative")): Send request successfully
+
+2022-05-13 10:52:59 - [MESSAGE][INFO] - HAR: C:\Users\Hans-Mustofa\Katalon Studio\Testing-API-Mini-Project-Hans\Reports\20220513_105225\Regression\Negative Test Suite\20220513_105225\requests\main\7.har
+
+2022-05-13 10:52:59 - [MESSAGE][PASSED] - Send request successfully
+
+2022-05-13 10:52:59 - [TEST_STEP][PASSED] - verifyResponseStatusCode(Response, 404): Verify response status code successfully
+
+2022-05-13 10:52:59 - [MESSAGE][PASSED] - Verify response status code successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Negative_Test_Case/TC09_Give_Rating_Product_Negative" time="1.096" classname="Test Cases/Negative_Test_Case/TC09_Give_Rating_Product_Negative" status="PASSED">
+         <system-out><![CDATA[2022-05-13 10:52:59 - [TEST_CASE][PASSED] - Test Cases/Negative_Test_Case/TC09_Give_Rating_Product_Negative: Test Cases/Negative_Test_Case/TC09_Give_Rating_Product_Negative
+
+2022-05-13 10:53:00 - [TEST_STEP][PASSED] - Response = sendRequest(findTestObject("Objek_API/API_Ratings/Object_09_Give_Rating_Product_Negative")): Send request successfully
+
+2022-05-13 10:53:00 - [MESSAGE][INFO] - HAR: C:\Users\Hans-Mustofa\Katalon Studio\Testing-API-Mini-Project-Hans\Reports\20220513_105225\Regression\Negative Test Suite\20220513_105225\requests\main\8.har
+
+2022-05-13 10:53:00 - [MESSAGE][PASSED] - Send request successfully
+
+2022-05-13 10:53:00 - [TEST_STEP][PASSED] - verifyResponseStatusCode(Response, 500): Verify response status code successfully
+
+2022-05-13 10:53:00 - [MESSAGE][PASSED] - Verify response status code successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Negative_Test_Case/TC10_Get_All_Transaction_Negative" time="1.021" classname="Test Cases/Negative_Test_Case/TC10_Get_All_Transaction_Negative" status="PASSED">
+         <system-out><![CDATA[2022-05-13 10:53:00 - [TEST_CASE][PASSED] - Test Cases/Negative_Test_Case/TC10_Get_All_Transaction_Negative: Test Cases/Negative_Test_Case/TC10_Get_All_Transaction_Negative
+
+2022-05-13 10:53:01 - [TEST_STEP][PASSED] - Response = sendRequest(findTestObject("Objek_API/API_Transactions/Object_10_Get_All_Transaction_Negative")): Send request successfully
+
+2022-05-13 10:53:01 - [MESSAGE][INFO] - HAR: C:\Users\Hans-Mustofa\Katalon Studio\Testing-API-Mini-Project-Hans\Reports\20220513_105225\Regression\Negative Test Suite\20220513_105225\requests\main\9.har
+
+2022-05-13 10:53:01 - [MESSAGE][PASSED] - Send request successfully
+
+2022-05-13 10:53:01 - [TEST_STEP][PASSED] - verifyResponseStatusCode(Response, 404): Verify response status code successfully
+
+2022-05-13 10:53:01 - [MESSAGE][PASSED] - Verify response status code successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Negative_Test_Case/TC11_Create_Transaction_Negative" time="0.894" classname="Test Cases/Negative_Test_Case/TC11_Create_Transaction_Negative" status="PASSED">
+         <system-out><![CDATA[2022-05-13 10:53:01 - [TEST_CASE][PASSED] - Test Cases/Negative_Test_Case/TC11_Create_Transaction_Negative: Test Cases/Negative_Test_Case/TC11_Create_Transaction_Negative
+
+2022-05-13 10:53:02 - [TEST_STEP][PASSED] - Response = sendRequest(findTestObject("Objek_API/API_Transactions/Object_11_Create_Transaction_Negative")): Send request successfully
+
+2022-05-13 10:53:02 - [MESSAGE][INFO] - HAR: C:\Users\Hans-Mustofa\Katalon Studio\Testing-API-Mini-Project-Hans\Reports\20220513_105225\Regression\Negative Test Suite\20220513_105225\requests\main\10.har
+
+2022-05-13 10:53:02 - [MESSAGE][PASSED] - Send request successfully
+
+2022-05-13 10:53:02 - [TEST_STEP][PASSED] - verifyResponseStatusCode(Response, 401): Verify response status code successfully
+
+2022-05-13 10:53:02 - [MESSAGE][PASSED] - Verify response status code successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Negative_Test_Case/TC12_Get_Products_Comments_Negative" time="1.082" classname="Test Cases/Negative_Test_Case/TC12_Get_Products_Comments_Negative" status="PASSED">
+         <system-out><![CDATA[2022-05-13 10:53:02 - [TEST_CASE][PASSED] - Test Cases/Negative_Test_Case/TC12_Get_Products_Comments_Negative: Test Cases/Negative_Test_Case/TC12_Get_Products_Comments_Negative
+
+2022-05-13 10:53:03 - [TEST_STEP][PASSED] - Response = sendRequest(findTestObject("Objek_API/API_Comments/Object_12_Get_Products_Comments_Negative")): Send request successfully
+
+2022-05-13 10:53:03 - [MESSAGE][INFO] - HAR: C:\Users\Hans-Mustofa\Katalon Studio\Testing-API-Mini-Project-Hans\Reports\20220513_105225\Regression\Negative Test Suite\20220513_105225\requests\main\11.har
+
+2022-05-13 10:53:03 - [MESSAGE][PASSED] - Send request successfully
+
+2022-05-13 10:53:03 - [TEST_STEP][PASSED] - verifyResponseStatusCode(Response, 404): Verify response status code successfully
+
+2022-05-13 10:53:03 - [MESSAGE][PASSED] - Verify response status code successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Negative_Test_Case/TC13_Write_Comment_Product_Negative" time="0.965" classname="Test Cases/Negative_Test_Case/TC13_Write_Comment_Product_Negative" status="PASSED">
+         <system-out><![CDATA[2022-05-13 10:53:03 - [TEST_CASE][PASSED] - Test Cases/Negative_Test_Case/TC13_Write_Comment_Product_Negative: Test Cases/Negative_Test_Case/TC13_Write_Comment_Product_Negative
+
+2022-05-13 10:53:04 - [TEST_STEP][PASSED] - Response = sendRequest(findTestObject("Objek_API/API_Comments/Object_13_Write_Comment_Product_Negative")): Send request successfully
+
+2022-05-13 10:53:04 - [MESSAGE][INFO] - HAR: C:\Users\Hans-Mustofa\Katalon Studio\Testing-API-Mini-Project-Hans\Reports\20220513_105225\Regression\Negative Test Suite\20220513_105225\requests\main\12.har
+
+2022-05-13 10:53:04 - [MESSAGE][PASSED] - Send request successfully
+
+2022-05-13 10:53:04 - [TEST_STEP][PASSED] - verifyResponseStatusCode(Response, 502): Verify response status code successfully
+
+2022-05-13 10:53:04 - [MESSAGE][PASSED] - Verify response status code successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2022-05-13 10:52:46 - [TEST_SUITE][PASSED] - Negative Test Suite: Test Cases/Negative_Test_Case/TC13_Write_Comment_Product_Negative]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

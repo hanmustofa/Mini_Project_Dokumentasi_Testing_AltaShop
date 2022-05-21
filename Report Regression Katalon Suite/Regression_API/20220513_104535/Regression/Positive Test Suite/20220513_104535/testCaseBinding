@@ -1,0 +1,13 @@
+{"testCaseName":"Test Cases/Positive_Test_Case/TC01_Register_Positive","testCaseId":"Test Cases/Positive_Test_Case/TC01_Register_Positive"}
+{"testCaseName":"Test Cases/Positive_Test_Case/TC02_Login_Positive","testCaseId":"Test Cases/Positive_Test_Case/TC02_Login_Positive"}
+{"testCaseName":"Test Cases/Positive_Test_Case/TC03_Get_All_Categories_Positive","testCaseId":"Test Cases/Positive_Test_Case/TC03_Get_All_Categories_Positive"}
+{"testCaseName":"Test Cases/Positive_Test_Case/TC04_Create_Categories_Positive","testCaseId":"Test Cases/Positive_Test_Case/TC04_Create_Categories_Positive"}
+{"testCaseName":"Test Cases/Positive_Test_Case/TC05_Get_All_Product_Positive","testCaseId":"Test Cases/Positive_Test_Case/TC05_Get_All_Product_Positive"}
+{"testCaseName":"Test Cases/Positive_Test_Case/TC06_Get_Product_By_ID_Positive","testCaseId":"Test Cases/Positive_Test_Case/TC06_Get_Product_By_ID_Positive"}
+{"testCaseName":"Test Cases/Positive_Test_Case/TC07_Create_By_Product_Positive","testCaseId":"Test Cases/Positive_Test_Case/TC07_Create_By_Product_Positive"}
+{"testCaseName":"Test Cases/Positive_Test_Case/TC08_Get_Product_Rating_Positive","testCaseId":"Test Cases/Positive_Test_Case/TC08_Get_Product_Rating_Positive"}
+{"testCaseName":"Test Cases/Positive_Test_Case/TC09_Give_Rating_Product_Positive","testCaseId":"Test Cases/Positive_Test_Case/TC09_Give_Rating_Product_Positive"}
+{"testCaseName":"Test Cases/Positive_Test_Case/TC10_Get_All_Transaction_Positive","testCaseId":"Test Cases/Positive_Test_Case/TC10_Get_All_Transaction_Positive"}
+{"testCaseName":"Test Cases/Positive_Test_Case/TC11_Create_Transaction_Positive","testCaseId":"Test Cases/Positive_Test_Case/TC11_Create_Transaction_Positive"}
+{"testCaseName":"Test Cases/Positive_Test_Case/TC12_Get_Products_Comments_Positive","testCaseId":"Test Cases/Positive_Test_Case/TC12_Get_Products_Comments_Positive"}
+{"testCaseName":"Test Cases/Positive_Test_Case/TC13_Write_Comment_Product_Positive","testCaseId":"Test Cases/Positive_Test_Case/TC13_Write_Comment_Product_Positive"}

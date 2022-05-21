@@ -1,0 +1,54 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Negative Test Suite,,,,2022-05-13 10:52:46,2022-05-13 10:53:04,"17,883s",PASSED
+,,,,,,,
+Test Cases/Negative_Test_Case/TC01_Register_Negative,,,,2022-05-13 10:52:47,2022-05-13 10:52:52,"4,963s",PASSED
+"Response = sendRequest(findTestObject(""Objek_API/API_Auth/Object_01_Register_Negative""))",,,,2022-05-13 10:52:49,2022-05-13 10:52:52,"3,036s",PASSED
+"verifyResponseStatusCode(Response, 400)",,,,2022-05-13 10:52:52,2022-05-13 10:52:52,"0,049s",PASSED
+,,,,,,,
+Test Cases/Negative_Test_Case/TC02_Login_Negative,,,,2022-05-13 10:52:52,2022-05-13 10:52:54,"1,336s",PASSED
+"Response = sendRequest(findTestObject(""Objek_API/API_Auth/Object_02_Login_Negative""))",,,,2022-05-13 10:52:53,2022-05-13 10:52:54,"0,211s",PASSED
+"verifyResponseStatusCode(Response, 400)",,,,2022-05-13 10:52:54,2022-05-13 10:52:54,"0,004s",PASSED
+,,,,,,,
+Test Cases/Negative_Test_Case/TC03_Get_All_Categories_Negative,,,,2022-05-13 10:52:54,2022-05-13 10:52:54,"0,816s",PASSED
+"Response = sendRequest(findTestObject(""Objek_API/API_Categories/Object_03_Get_All_Categories_Negative""))",,,,2022-05-13 10:52:54,2022-05-13 10:52:54,"0,184s",PASSED
+"verifyResponseStatusCode(Response, 404)",,,,2022-05-13 10:52:54,2022-05-13 10:52:54,"0,004s",PASSED
+,,,,,,,
+Test Cases/Negative_Test_Case/TC04_Create_Categories_Negative,,,,2022-05-13 10:52:55,2022-05-13 10:52:55,"0,896s",PASSED
+"Response = sendRequest(findTestObject(""Objek_API/API_Categories/Object_04_Create_Categories_Negative""))",,,,2022-05-13 10:52:55,2022-05-13 10:52:55,"0,217s",PASSED
+"verifyResponseStatusCode(Response, 400)",,,,2022-05-13 10:52:55,2022-05-13 10:52:55,"0,009s",PASSED
+,,,,,,,
+Test Cases/Negative_Test_Case/TC05_Get_All_Product_Negative,,,,2022-05-13 10:52:55,2022-05-13 10:52:56,"0,868s",PASSED
+"Response = sendRequest(findTestObject(""Objek_API/API_Product/Object_05_Get_All_Product_Negative""))",,,,2022-05-13 10:52:56,2022-05-13 10:52:56,"0,192s",PASSED
+"verifyResponseStatusCode(Response, 404)",,,,2022-05-13 10:52:56,2022-05-13 10:52:56,"0,003s",PASSED
+,,,,,,,
+Test Cases/Negative_Test_Case/TC06_Get_Product_By_ID_Negative,,,,2022-05-13 10:52:56,2022-05-13 10:52:57,"0,747s",PASSED
+"Response = sendRequest(findTestObject(""Objek_API/API_Product/Object_06_Get_Product_By_ID_Negative""))",,,,2022-05-13 10:52:57,2022-05-13 10:52:57,"0,174s",PASSED
+"verifyResponseStatusCode(Response, 404)",,,,2022-05-13 10:52:57,2022-05-13 10:52:57,"0,005s",PASSED
+,,,,,,,
+Test Cases/Negative_Test_Case/TC07_Create_By_Product_Negative,,,,2022-05-13 10:52:57,2022-05-13 10:52:58,"1,094s",PASSED
+"Response = sendRequest(findTestObject(""Objek_API/API_Product/Object_07_Create_By_Product_Negative""))",,,,2022-05-13 10:52:58,2022-05-13 10:52:58,"0,390s",PASSED
+"verifyResponseStatusCode(Response, 400)",,,,2022-05-13 10:52:58,2022-05-13 10:52:58,"0,003s",PASSED
+,,,,,,,
+Test Cases/Negative_Test_Case/TC08_Get_Product_Rating_Negative,,,,2022-05-13 10:52:58,2022-05-13 10:52:59,"1,019s",PASSED
+"Response = sendRequest(findTestObject(""Objek_API/API_Ratings/Object_08_Get_Product_Rating_Negative""))",,,,2022-05-13 10:52:59,2022-05-13 10:52:59,"0,212s",PASSED
+"verifyResponseStatusCode(Response, 404)",,,,2022-05-13 10:52:59,2022-05-13 10:52:59,"0,009s",PASSED
+,,,,,,,
+Test Cases/Negative_Test_Case/TC09_Give_Rating_Product_Negative,,,,2022-05-13 10:52:59,2022-05-13 10:53:00,"1,096s",PASSED
+"Response = sendRequest(findTestObject(""Objek_API/API_Ratings/Object_09_Give_Rating_Product_Negative""))",,,,2022-05-13 10:53:00,2022-05-13 10:53:00,"0,240s",PASSED
+"verifyResponseStatusCode(Response, 500)",,,,2022-05-13 10:53:00,2022-05-13 10:53:00,"0,003s",PASSED
+,,,,,,,
+Test Cases/Negative_Test_Case/TC10_Get_All_Transaction_Negative,,,,2022-05-13 10:53:00,2022-05-13 10:53:01,"1,021s",PASSED
+"Response = sendRequest(findTestObject(""Objek_API/API_Transactions/Object_10_Get_All_Transaction_Negative""))",,,,2022-05-13 10:53:01,2022-05-13 10:53:01,"0,225s",PASSED
+"verifyResponseStatusCode(Response, 404)",,,,2022-05-13 10:53:01,2022-05-13 10:53:01,"0,005s",PASSED
+,,,,,,,
+Test Cases/Negative_Test_Case/TC11_Create_Transaction_Negative,,,,2022-05-13 10:53:01,2022-05-13 10:53:02,"0,894s",PASSED
+"Response = sendRequest(findTestObject(""Objek_API/API_Transactions/Object_11_Create_Transaction_Negative""))",,,,2022-05-13 10:53:02,2022-05-13 10:53:02,"0,174s",PASSED
+"verifyResponseStatusCode(Response, 401)",,,,2022-05-13 10:53:02,2022-05-13 10:53:02,"0,004s",PASSED
+,,,,,,,
+Test Cases/Negative_Test_Case/TC12_Get_Products_Comments_Negative,,,,2022-05-13 10:53:02,2022-05-13 10:53:03,"1,082s",PASSED
+"Response = sendRequest(findTestObject(""Objek_API/API_Comments/Object_12_Get_Products_Comments_Negative""))",,,,2022-05-13 10:53:03,2022-05-13 10:53:03,"0,255s",PASSED
+"verifyResponseStatusCode(Response, 404)",,,,2022-05-13 10:53:03,2022-05-13 10:53:03,"0,006s",PASSED
+,,,,,,,
+Test Cases/Negative_Test_Case/TC13_Write_Comment_Product_Negative,,,,2022-05-13 10:53:03,2022-05-13 10:53:04,"0,965s",PASSED
+"Response = sendRequest(findTestObject(""Objek_API/API_Comments/Object_13_Write_Comment_Product_Negative""))",,,,2022-05-13 10:53:04,2022-05-13 10:53:04,"0,183s",PASSED
+"verifyResponseStatusCode(Response, 502)",,,,2022-05-13 10:53:04,2022-05-13 10:53:04,"0,003s",PASSED
